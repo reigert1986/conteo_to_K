@@ -4,8 +4,8 @@ const contador = document.querySelector(".contador");
 
 /* 
  * FECHA DEL KARAOKE*/
-//let date = new Date("2022/10/13 21:30:00").getTime();
-let date = new Date("2022/10/03 17:35:00").getTime();
+let date = new Date("2022/10/13 21:30:00").getTime();
+//let date = new Date("2022/10/03 17:35:00").getTime();
 /*
 setInterval(() =>{
 	

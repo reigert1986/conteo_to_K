@@ -1,3 +1,8 @@
+:root {
+    --background-uy: url(banderaUy.jpg);
+  }
+
+
 body {
 	background: linear-gradient(to left, #536976, #292e49);
 }
@@ -6,8 +11,18 @@ h1 {
 	text-align: center;
 	color: #ffc;
 }
-
+h2 {
+    font-size: xx-large;
+}
+h3 {
+    font-size: 24px;
+}
+h4 {
+    font-size: 12px;
+    color: red;
+}
 .contador {
+    width: auto;
 	display: flex;
 	border-radius: 25%;
 	justify-content: center;
@@ -18,4 +33,41 @@ h1 {
 				 2px 2px 0px red,
 				 3px 3px 0px blue,
 				 4px 4px 1px green;
+}
+
+.letracartel {
+    font-size: x-large;
+    font-weight: 1000;
+	opacity: 1;
+}
+
+
+.primerPartido {
+    font-size: small;
+	width: auto;
+	
+	background: var(--background-uy);
+	
+	background-size: contain;
+	background-repeat: no-repeat
+}
+.segundoPartido {
+	font-size: small;
+	width: auto;
+	
+	background: var(--background-uy);
+	opacity: 0.7;
+	
+	background-size: contain;
+	background-repeat: no-repeat
+}
+.tercerPartido{
+	font-size: small;
+	width: auto;
+
+	background: var(--background-uy);
+	opacity: 1;
+	background-size: contain;
+	background-repeat: no-repeat
+
 }

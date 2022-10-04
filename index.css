@@ -1,5 +1,6 @@
 :root {
     --background-uy: url(banderaUy.jpg);
+	--displayF: flex;
   }
 
 
@@ -39,15 +40,16 @@ h4 {
     font-size: x-large;
     font-weight: 1000;
 	opacity: 1;
+	
 }
 
 
 .primerPartido {
     font-size: small;
-	width: auto;
+	object-fit: cover;
 	
-	background: var(--background-uy);
 	
+	justify-content: center;
 	background-size: contain;
 	background-repeat: no-repeat
 }
@@ -55,19 +57,21 @@ h4 {
 	font-size: small;
 	width: auto;
 	
-	background: var(--background-uy);
-	opacity: 0.7;
-	
 	background-size: contain;
 	background-repeat: no-repeat
 }
 .tercerPartido{
 	font-size: small;
 	width: auto;
-
-	background: var(--background-uy);
-	opacity: 1;
+	
 	background-size: contain;
 	background-repeat: no-repeat
 
+}
+
+#seleccion {
+	display: var(--displayF);
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
 }

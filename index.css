@@ -58,7 +58,7 @@ h4 { /* este es de InnerHTML en js*/
 	display: flex;
 	border-radius: 25%;
 	justify-content: center;
-	background: linear-gradient(to left, #56ccf2, #2f80ed);
+	background: linear-gradient(to left, #ffd89b, #19547b);
 	padding: 5px;
 	color: #2CEB3C;
 	text-shadow: 1px 2px 0px #fff,
@@ -83,14 +83,16 @@ h4 { /* este es de InnerHTML en js*/
 
 .second {
 	
-	background-image: url(valverde.jpg);
+	background-image: url(giorgian.jpg);
 	background-size: cover;
 	aspect-ratio: auto;
 }
 .third {
-	background-image: url(valverde.jpg);
+	width: 100%;
+	background-image: url(darwin.png);
 	background-size: cover;
 	aspect-ratio: auto;
+	
 }
 
 .primerPartido {

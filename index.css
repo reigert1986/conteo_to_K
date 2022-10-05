@@ -1,25 +1,57 @@
 :root {
     --background-uy: url(banderaUy.jpg);
+	--displayF: flex;
+	--background-uy-val: url(valverde.jpg)
+
+	--background-grad0: linear-gradient(to right, #59c173, #a17fe0, #5d26c1);
   }
 
 
 body {
 	background: linear-gradient(to left, #536976, #292e49);
+	
 }
 
 h1 {
 	text-align: center;
 	color: #ffc;
 }
-h2 {
-    font-size: xx-large;
+h2 {/* este es titulo de la seleccion*/
+   font-size: 20px;
 }
-h3 {
-    font-size: 24px;
+h3 { /* este es de partidos*/
+    font-size: 18px;
+	text-align: center;
 }
-h4 {
-    font-size: 12px;
+.vsC { /* este es de partidos*/
+	background: linear-gradient(to bottom, white, blue);
+	font-size:  16px;
+	opacity: 0.7;
+	text-align: center;
+}
+.vsP { /* este es de partidos*/
+	background: linear-gradient(to left, #ff0000, #006600, #ffff00, #003399,#ffffff);
+	font-size:  16px;
+	opacity: 0.7;
+	text-align: center;
+}
+.vsG { /* este es de partidos*/
+	background: linear-gradient(to left, #ce1126, #fcd116, #000, #006b3f);
+	font-size:  16px;
+	opacity: 0.7;
+	text-align: center;
+}
+li {
+	list-style-type: none;
+}
+h4 { /* este es de InnerHTML en js*/
+    font-size: 16px;
     color: red;
+}
+ /*rivales abajp del partido*/
+ li > p{
+	background-color: greenyellow;
+	font-size:  16px;
 }
 .contador {
     width: auto;
@@ -39,35 +71,60 @@ h4 {
     font-size: x-large;
     font-weight: 1000;
 	opacity: 1;
+	
 }
 
+/* */
+.first {
+	background-image: url(valverde.jpg);
+	background-size: cover;
+	aspect-ratio: auto;
+}
+
+.second {
+	
+	background-image: url(valverde.jpg);
+	background-size: cover;
+	aspect-ratio: auto;
+}
+.third {
+	background-image: url(valverde.jpg);
+	background-size: cover;
+	aspect-ratio: auto;
+}
 
 .primerPartido {
+	margin: 10px;
+	padding: 10px;
     font-size: small;
-	width: auto;
 	
-	background: var(--background-uy);
+	color: #0c1554;
+	text-shadow: 1px 1px 1px ;;
 	
-	background-size: contain;
-	background-repeat: no-repeat
+	
 }
+
 .segundoPartido {
 	font-size: small;
-	width: auto;
+	margin: 10px;
+	padding: 10px;
+	 
 	
-	background: var(--background-uy);
-	opacity: 0.7;
-	
-	background-size: contain;
 	background-repeat: no-repeat
 }
 .tercerPartido{
 	font-size: small;
 	width: auto;
-
-	background: var(--background-uy);
-	opacity: 1;
+	margin: 10px;
+	padding: 10px;
 	background-size: contain;
 	background-repeat: no-repeat
 
+}
+
+#seleccion {
+	display: var(--displayF);
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
 }

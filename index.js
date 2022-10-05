@@ -64,10 +64,10 @@ function partido2(){
         let seconds = Math.floor((restarDias % (1000 * 60)) / 1000);
         function mostar(){
             segundoPartido.innerHTML = `<span> <h4>Falta Para el comienzo:</h4> <br>
-                <p class="letracartel">Dias: ${days} </p>
-                <p class="letracartel">Horas: ${('0' + hours).slice(-2)} </p> 
-                <p class="letracartel">Minutos: ${('0' + minutes).slice(-2)} </p>
-                <p class="letracartel">Segundos: ${('0'+seconds).slice(-2)} </p>
+                <p class="letracartel lettWhte">Dias: ${days} </p>
+                <p class="letracartel lettWhte">Horas: ${('0' + hours).slice(-2)} </p> 
+                <p class="letracartel lettWhte">Minutos: ${('0' + minutes).slice(-2)} </p>
+                <p class="letracartel lettWhte">Segundos: ${('0'+seconds).slice(-2)} </p>
             
                             </span>`; 
         }
@@ -93,10 +93,10 @@ function partido3(){
         let seconds = Math.floor((restarDias % (1000 * 60)) / 1000);
         function mostar(){
             tercerPartido.innerHTML = `<span> <h4>Falta Para el comienzo:</h4> <br>
-                <p class="letracartel">Dias: ${days} </p>
-                <p class="letracartel">Horas: ${('0' + hours).slice(-2)} </p> 
-                <p class="letracartel">Minutos: ${('0' + minutes).slice(-2)} </p>
-                <p class="letracartel">Segundos: ${('0'+seconds).slice(-2)} </p>
+                <p class="letracartel letAlihossein">Dias: ${days} </p>
+                <p class="letracartel letAlihossein">Horas: ${('0' + hours).slice(-2)} </p> 
+                <p class="letracartel letAlihossein">Minutos: ${('0' + minutes).slice(-2)} </p>
+                <p class="letracartel letAlihossein">Segundos: ${('0'+seconds).slice(-2)} </p>
             
                             </span>`; 
         }

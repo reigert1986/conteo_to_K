@@ -1,21 +1,34 @@
 :root {
     --background-uy: url(banderaUy.jpg);
 	--displayF: flex;
-	--background-uy-val: url(valverde.jpg)
+	--background-uy-val: url(valverde.jpg);
 
+	--background-ali: linear-gradient(to right, #ff4b1f, #1fddff);
 	--background-grad0: linear-gradient(to right, #59c173, #a17fe0, #5d26c1);
   }
 
 
 body {
-	background: linear-gradient(to left, #536976, #292e49);
+	background: var(--background-ali)
 	
 }
-
+/* div presentacion h1,img.*/
+.presentacion {
+	height: auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
 h1 {
 	text-align: center;
 	color: #ffc;
 }
+img {
+	width: 50px;
+	height: 50px;
+
+}
+
 h2 {/* este es titulo de la seleccion*/
    font-size: 20px;
 }
@@ -53,8 +66,11 @@ h4 { /* este es de InnerHTML en js*/
 	background-color: greenyellow;
 	font-size:  16px;
 }
+
+/* es la parte del innerHTML class contador y letracartel*/
 .contador {
     width: auto;
+	height: auto;
 	display: flex;
 	border-radius: 25%;
 	justify-content: center;
@@ -68,7 +84,7 @@ h4 { /* este es de InnerHTML en js*/
 }
 
 .letracartel {
-    font-size: x-large;
+    font-size: medium;
     font-weight: 1000;
 	opacity: 1;
 	
@@ -87,12 +103,19 @@ h4 { /* este es de InnerHTML en js*/
 	background-size: cover;
 	aspect-ratio: auto;
 }
+.lettWhte {
+	color: white;
+	text-shadow: 5px 5px 0px black;
+} 
 .third {
 	width: 100%;
 	background-image: url(darwin.png);
 	background-size: cover;
 	aspect-ratio: auto;
-	
+}
+.letAlihossein {
+	color: #f7ff00;
+	text-shadow: 5px 5px 2px #db36a4;
 }
 
 .primerPartido {
@@ -101,7 +124,7 @@ h4 { /* este es de InnerHTML en js*/
     font-size: small;
 	
 	color: #0c1554;
-	text-shadow: 1px 1px 1px ;;
+	text-shadow: 1px 1px 1px ;
 	
 	
 }
@@ -130,3 +153,5 @@ h4 { /* este es de InnerHTML en js*/
 	align-items: center;
 	flex-direction: column;
 }
+
+
